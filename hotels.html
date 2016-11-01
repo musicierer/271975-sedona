@@ -3,9 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Sedona hotels</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style/style_hotel.css">
+	<link rel="stylesheet" type="text/css" href="style/normalize.css">
 </head>
 <body>
+	<div class="wrapper">
 	<header class="main-header">
 		<div class="container">
 			<nav class="main-navigation">
@@ -32,20 +34,20 @@
 			<div class="services">
 				<div class="infrastructure">
 					<h3>ИНФРАСТРУКТУРА:</h3>
-					<input type="checkbox" name="mark" id="mark-type" checked>
+					<input type="checkbox" id="mark-type" checked>
 					<label for="mark-type">БАСЕЙН</label><br>
-					<input type="checkbox" name="mark" id="mark-type">
+					<input type="checkbox" id="mark-type">
 					<label for="mark-type">ПАРКОВКА</label><br>
-					<input type="checkbox" name="mark" id="mark-type">
+					<input type="checkbox" id="mark-type">
 					<label for="mark-type">WI-FI</label>
 				</div>
-				<div class="property type">
+				<div class="property_type">
 					<h3>ТИП ЖИЛЬЯ:</h3>
-					<input type="checkbox" name="mark" id="mark-type" checked>
+					<input type="checkbox" id="mark-type" checked>
 					<label for="mark-type">БАСЕЙН</label><br>
-					<input type="checkbox" name="mark" id="mark-type" checked>
+					<input type="checkbox" id="mark-type" checked>
 					<label for="mark-type">ПАРКОВКА</label><br>
-					<input type="checkbox" name="mark" id="mark-type" checked>
+					<input type="checkbox" id="mark-type" checked>
 					<label for="mark-type">WI-FI</label>
 				</div>
 				<div class="price">
@@ -59,7 +61,7 @@
 	</header>
 	<main class="container">
 		<nav class="sorting">
-			<h3>НАЙДЕНО:3</h3>
+			<h3>НАЙДЕНО: 3</h3>
 			<p>СОРТИРОВКА:</p>		
 				<ul>
 					<li>
@@ -72,40 +74,32 @@
 						<a href="#">ПО РЕЙТИНГУ</a>
 					</li>
 				</ul>	
+				<div class="coner"><a href="#"><img src="img/3coner.png"></div></a>
 		</nav>
 		<section class="hotels">
 			<article class="hotel">
-				<img src="img/amara.png">
 				<h3>AMARA RESOR & SPA</h3>
+				<div class="hotel_1"><img src="img/amara.png"></div>
 				<p>ГОСТИНИЦА ОТ 3000Р.</p>
-				<p><input type="button" name="ПОДРОБНЕЕ" value="ПОДРОБНЕЕ"></p>
-				<p><input type="button" name="ЗАБРОНИРОВАНЬ" value="ЗАБРОНИРОВАНЬ"></p>
-				<img src="img/4 stars.png">
-				<table border="1">
-					<th>РЕЙТИНГ:8.5</th>
-				</table>
+				<p><input type="button" class="b1" value="ПОДРОБНЕЕ"> <input type="button" class="b2" value="ЗАБРОНИРОВАНЬ"></p>
+				<div class="star1"><img src="img/4 stars.png"></div>
+				<div class="hotel-rating">РЕЙТИНГ:8.5</div>
 			</article>
 			<article class="hotel">
-				<img src="img/desert.png">
 				<h3>DESERT QUAIL INN</h3>
+				<div class="hotel_2"><img src="img/desert.png"></div>
 				<p>МОТЕЛЬ ОТ 2000Р.</p>
-				<p><input type="button" name="ПОДРОБНЕЕ" value="ПОДРОБНЕЕ"></p>
-				<p><input type="button" name="ЗАБРОНИРОВАНЬ" value="ЗАБРОНИРОВАНЬ"></p>
-				<img src="img/2 stars.png">
-				<table border="1">
-					<th>РЕЙТИНГ:8.9</th>
-				</table>
+				<p><input type="button" class="b1" value="ПОДРОБНЕЕ"> <input type="button" class="b2" value="ЗАБРОНИРОВАНЬ"></p>
+				<div class="star2"><img src="img/2 stars.png"></div>
+				<div class="hotel-rating">РЕЙТИНГ:8.9</div>
 			</article>
 			<article class="hotel">
-				<img src="img/villas.png">
 				<h3>VILLAS AT POCO DIABLO</h3>
+				<div class="hotel_3"><img src="img/villas.png"></div>
 				<p>АПАРТАМЕНТЫ ОТ 4000Р.</p>
-				<p><input type="button" name="ПОДРОБНЕЕ" value="ПОДРОБНЕЕ"></p>
-				<p><input type="button" name="ЗАБРОНИРОВАНЬ" value="ЗАБРОНИРОВАНЬ"></p>
-				<img src="img/3 stars.png">
-				<table border="1">
-					<th>РЕЙТИНГ:9.2</th>
-				</table>
+				<p><input type="button" class="b1" value="ПОДРОБНЕЕ"> <input type="button" class="b2" value="ЗАБРОНИРОВАНЬ"></p>
+				<div class="star3"><img src="img/3 stars.png"></div>
+				<div class="hotel-rating">РЕЙТИНГ:9.2</div>
 			</article>
 		</section>
 	</main>
@@ -115,19 +109,16 @@
          <a href="#">#VISITSEDONA</a>
         </div>
         <section class="footer-social">
-          <img src="img/tw.png">
-          <a class="social-btn-tw" href="#">Твиттере</a>
-          <img src="img/fb.png">
-          <a class="social-btn-fb" href="#">Фейсбук</a>
-          <img src="img/hz.png">
-          <a class="social-btn-inst" href="#">Инстаграм</a>
+          <a class="social-btn-tw" href="http://twitter.com"><img src="img/tw.png"></a>
+          <a class="social-btn-fb" href="http://www.facebook.com"><img src="img/fb.png"></a>
+          <a class="social-btn-inst" href="http://www.instagram.com"><img src="img/hz.png"></a>
         </section>
         <section class="footer-copyright">
-          <p>Разработано:</p>
-          <img src="img/html.png">
-          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        <a class="btn" href="https://htmlacademy.ru">WEBSITE BY</a>
+        <img src="img/html.png">
         </section>
       </div>
     </footer>
+    </div>
 </body>
 </html>

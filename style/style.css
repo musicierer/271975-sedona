@@ -1,0 +1,198 @@
+body {
+	font: 14px PTSans, PTSans Regular;
+	color: #000000;
+}
+
+@font-face {
+    font-family: "PTSans";
+    src:
+        local("PTSans Regular"),
+        url("fonts/web/ptsans.woff") format("woff");
+}
+
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.main-navigation {
+	height: 56px;
+	margin: 0 auto;
+	background: #ffffff;
+}
+
+.main-navigation ul li {
+	float: left;
+	list-style: none;
+	margin-left: 110px;
+	margin-top: 22px;
+	margin-bottom: 24px;
+}
+
+.little-logo {
+	position: relative;
+	margin-top: -37px;
+	z-index: 10;
+}
+
+.main-navigation ul li:nth-child(1) {
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.main-navigation ul li:nth-child(4) {
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.main-navigation ul li:nth-child(2),
+.main-navigation ul li:nth-child(5) {
+	 margin-top: 10px;
+}
+
+.main-logo {
+	width: 1200px;
+	min-height: 773px;
+	position: relative;
+	top: -40px;
+}
+
+.information {
+	position: relative;
+	margin-top: -210px;
+}
+
+.information p {
+	margin-top: 40px;
+}
+
+.container .city-logo {
+	position: relative;
+	width: 400px;
+	height: 206px;
+	background: #81b3d2;
+	margin-top: 59px;
+	text-align: center;
+	padding-top: 50px;
+	color: #ffffff;
+}
+
+.container .city-logo a {
+	color: #ffffff;
+}
+
+.container .city-logo img {
+	position: relative;
+	width: 800px;
+	height: 256px;
+	margin-left: 400px;
+	margin-top: -198px;
+}
+
+.img-house,
+.img-burger,
+.souvenirs {
+	text-align: center;
+	display: inline-block;
+	margin-top: 62px;
+	margin-bottom: 80px;
+}
+
+.img-house {
+	margin-left: 72px
+}
+
+.img-burger {
+	margin-left: 80px;
+}
+
+.davil-bridge {
+	position: relative;
+	width: 400px;
+	height: 206px;
+	background: #81b3d2;
+	margin-left: 800px;
+	text-align: center;
+	padding-top: 50px;
+	color: #ffffff;
+	margin-top: -259px;
+}
+
+.davil-bridge a {
+	color: #ffffff;
+}
+
+.places {
+	width: 1200px;
+	height: 256px;
+	background: #eeeeee;
+}
+
+.square,
+.road,
+.turists {
+	text-align: center;
+	display: inline-block;
+	margin-top: 62px;
+	margin-bottom: 80px;
+}
+
+.square {
+	margin-left: 95px;
+}
+
+.road {
+	margin-left: 90px;
+}
+
+.turists {
+	margin-left: 110px;
+}
+
+.interesting {
+	width: 1200px;
+	height: 256px;
+	background: #ffffff;
+}
+
+.interesting h2{
+	text-align: center;
+	padding-top: 56px;
+}
+
+.interesting p {
+	text-align: center;
+	padding-top: 36px;
+}
+
+.aplication-form img {
+	position: relative;
+	width: 1200px;
+	height: 470px;
+}
+
+.aplication-form {
+	width: 568px;
+	height: 481px;
+}
+
+.aplication-form form h3 {
+	width: 566px;
+	height: 85px;
+	background: #766357;
+}
+
+.aplication-form a {
+	width: 458px;
+	height: 56px;
+	background: #81b3d2;
+}
+
+
