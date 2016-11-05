@@ -1,11 +1,5 @@
-@font-face {
-	    font-family: PTSans;
-	    src: local("PTSans"), 
-         url(fonts/PT-Sans.ttf);
-}
-
 body {
-	font: 14px PT-Sans, PT-Sans Regular;
+	font: PT+Sans;
 	color: #000000;
 }
 
@@ -18,8 +12,8 @@ a {
 	text-decoration: none;
 	color: #000000;
 	font-weight: bold;
+	font-size:  14px;
 	text-transform: uppercase;
-	font: 14px PTSans, PTSans Regular;
 }
 
 .main-navigation {
@@ -221,11 +215,13 @@ label {
 .hotels .hotel .b1 {
 	background: #81b3d2;
 	color: white;
+	border: none;
 }
 
 .hotels .hotel .b2 {
 	background: #766357;
 	color: white;
+	border: none;
 }
 
 .main-footer {
