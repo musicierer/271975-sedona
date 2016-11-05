@@ -209,6 +209,35 @@ a:hover {
 	padding-top: 36px;
 }
 
+.fined-hotel {
+	width: 569px;
+	height: 86px;
+	background: #766357;
+	text-align: center;
+	margin-left: 317px;
+	padding-top: 22px;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.choose-hotel {
+	position: relative;
+	margin-left: 317px;
+	margin-top: -36px; 
+	height: 397px;
+	width: 569px;
+	background: #ffffff;
+	z-index: 10;
+}
+
+.icon-calendar {
+	background-image: url('img/calendar.png');
+}
+
+.fined-hotel-btn {
+	color: white;
+}
+
 .visit {
 	margin-left: 129px;
 	margin-top: 56px;
