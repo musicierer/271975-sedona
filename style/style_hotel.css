@@ -16,6 +16,10 @@ a {
 	text-transform: uppercase;
 }
 
+a:hover {
+	color: #81b3d2;
+}
+
 .main-navigation {
 	height: 56px;
 	margin: 0 auto;
@@ -24,10 +28,7 @@ a {
 
 .main-navigation ul li {
 	float: left;
-	list-style: none;
-	margin-left: 110px;
-	margin-top: 22px;
-	margin-bottom: 24px;
+	list-style: none;	
 }
 
 .little-logo {
@@ -48,7 +49,7 @@ a {
 
 .main-navigation ul li:nth-child(3) {
 	margin-left: 50px;
-	margin-top: 5px;
+	margin-top: 21px;
 }
 
 .main-navigation ul li:nth-child(4) {
@@ -72,14 +73,24 @@ a {
 	margin-left: 72px;
 	z-index: 10;
 	color: #fefefe;
+	font-size: 14px;
+	font-weight: regular;
 }
 
 .property_type {
 	position: relative;
-	margin-top: -100px;
+	margin-top: -95px;
 	margin-left: 325px;
 	z-index: 10;
 	color: #fefefe;
+	font-size: 14px;
+	font-weight: regular;
+}
+
+.infrastructure h3,
+.property_type h3 {
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .price {
@@ -90,11 +101,43 @@ a {
 	color: #fefefe;
 }
 
+.price-button {
+	border: solid 1px #f5f5f6;
+	background: transparent;
+	color: #f2f2f2;
+	font-size: 16px;
+	width: 137px;
+	min-height: 36px;
+	margin-left: 100px;
+}
+
+.price-button:hover {
+	background: #a2c2d6;
+}
+
+.form-row {
+	border: none;
+}
+
+.price .form-out {
+	border: solid 1px #f5f5f6;
+	text-align: center;
+	width: 161px;
+	background: transparent;
+	color: #f2f2f2;
+	font-size: 16px;
+}
+
+.price h2 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
 .services img {
 	position: relative;
 	width: 1200px;
 	height: 218px;
-	margin-top: -170px;
+	margin-top: -195px;
 }
 
 label {
@@ -104,7 +147,7 @@ label {
 
 .sorting {
 	width: 1200px;
-	height: 75px;
+	min-height: 30px;
 	background: #fefefe;
 	border-bottom: 1px solid #b1b1b1;
 }
@@ -115,26 +158,42 @@ label {
 	left: 350px;
 }
 
+.sorting a {
+	color: #d8d8d8;
+}
+
+.sorting a:hover {
+		color: #81b3d2;
+}
+
 .sorting li:nth-child(1) {
 	left: 348px;
+	top: -32px;
 }
 
 .sorting li:nth-child(2) {
 	left: 430px;
+	top: -32px;
 }
 
 .sorting li:nth-child(3) {
 	left: 512px;
+	top: -32px;
 }
 
 .sorting h3 {
-	margin-top: 10px;
+	position: relative;
+	bottom: 21px;
 	margin-left: 72px;
+	font-size: 21px;
+	font-weight: bold;
 }
 
 .sorting p {
-	margin-top: -34px;
+	margin-top: -59px;
 	margin-left: 238px;
+	font-size: 12px;
+	font-weight: regular;
 }
 
 .sorting .coner {
@@ -175,12 +234,14 @@ label {
 	position: relative;
 	margin-left: 239px;
 	top: 20px;
+	font-size: 21px;
 }
 
 .hotel p {
 	position: relative;
 	margin-left: 239px;
 	bottom: 64px;
+	font-size: 14px;
 }
 
 .hotel .hotel-rating {
@@ -213,40 +274,65 @@ label {
 }
 
 .hotels .hotel .b1 {
+	min-height: 29px;
+	width: 112px;
 	background: #81b3d2;
 	color: white;
 	border: none;
+	font-size: 14px;
+	font-weight: bold;
 }
 
 .hotels .hotel .b2 {
+	min-height: 29px;
+	width: 142px;
 	background: #766357;
 	color: white;
 	border: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.main-footer .visit {
+	position: relative;
+	top: 70px;
+	margin-left: 129px;
+}
+
+.visit a {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.visit a:hover {
+	color: #81b3d2;
 }
 
 .main-footer {
-	width: 1200px;
-	height: 118px;
-}
-
-.visit {
-	margin-left: 129px;
-	margin-top: 46px;
+	min-height: 120px;
+	margin-top: -40px;
 }
 
 .footer-social {
+	position: relative;
 	margin-left: 524px;
-	margin-top: -25px;
+	top: 30px;
 }
 
 .footer-copyright img {
 	position: relative;
 	margin-left: 984px;
-	top: -61px;
+	top: -31px;
 }
 
 .footer-copyright .btn {
+	color: #000000;
+	background: none;
 	position: relative;
 	margin-left: 897px;
-	top: -33px;
+	top: -5px;
+}
+
+.footer-copyright .btn:hover {
+	color: #81b3d2;
 }

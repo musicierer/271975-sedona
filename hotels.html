@@ -45,16 +45,21 @@
 				<div class="property_type">
 					<h3>ТИП ЖИЛЬЯ:</h3>
 					<input type="checkbox" id="mark-type" checked>
-					<label for="mark-type">БАСЕЙН</label><br>
+					<label for="mark-type">ГОСТИНИЦА</label><br>
 					<input type="checkbox" id="mark-type" checked>
-					<label for="mark-type">ПАРКОВКА</label><br>
+					<label for="mark-type">МОТЕЛЬ</label><br>
 					<input type="checkbox" id="mark-type" checked>
-					<label for="mark-type">WI-FI</label>
+					<label for="mark-type">АПАРТАМЕНТЫ</label>
 				</div>
 				<div class="price">
 					<h2>СТОИМОСТЬ В СУТКИ (Р):</h2>
-					<input type="range" min="0" max="3000" step="1" value="50">
-					<p><input type="button" name="ПОКАЗАТЬ" value="ПОКАЗАТЬ"></p>
+					<form class="form" action="/search" method="post">
+					<fieldset class="form-row">
+              			<input class="form-out" type="text" name="price-out" id="price-out" value="от 0">
+              			<input class="form-out" type="text" name="price-out" id="price-out" value="до 3000">
+            		</fieldset>
+					<input type="range" class="scroll" min="0" max="3000" step="1" value="50">
+					<p><input  type="button" class="price-button" name="ПОКАЗАТЬ" value="ПОКАЗАТЬ"></p>
 				</div>
 				<img src="img/slime.png">
 			</div>
@@ -82,7 +87,7 @@
 				<h3>AMARA RESOR & SPA</h3>
 				<div class="hotel_1"><img src="img/amara.png"></div>
 				<p>ГОСТИНИЦА ОТ 3000Р.</p>
-				<p><input type="button" class="b1" value="ПОДРОБНЕЕ"> <input type="button" class="b2" value="ЗАБРОНИРОВАНЬ"></p>
+				<p><input type="button" class="b1" value="ПОДРОБНЕЕ"> <input type="button" class="b2" value="ЗАБРОНИРОВАТЬ"></p>
 				<div class="star1"><img src="img/4 stars.png"></div>
 				<div class="hotel-rating">РЕЙТИНГ:8.5</div>
 			</article>
@@ -90,7 +95,7 @@
 				<h3>DESERT QUAIL INN</h3>
 				<div class="hotel_2"><img src="img/desert.png"></div>
 				<p>МОТЕЛЬ ОТ 2000Р.</p>
-				<p><input type="button" class="b1" value="ПОДРОБНЕЕ"> <input type="button" class="b2" value="ЗАБРОНИРОВАНЬ"></p>
+				<p><input type="button" class="b1" value="ПОДРОБНЕЕ"> <input type="button" class="b2" value="ЗАБРОНИРОВАТЬ"></p>
 				<div class="star2"><img src="img/2 stars.png"></div>
 				<div class="hotel-rating">РЕЙТИНГ:8.9</div>
 			</article>
@@ -98,7 +103,7 @@
 				<h3>VILLAS AT POCO DIABLO</h3>
 				<div class="hotel_3"><img src="img/villas.png"></div>
 				<p>АПАРТАМЕНТЫ ОТ 4000Р.</p>
-				<p><input type="button" class="b1" value="ПОДРОБНЕЕ"> <input type="button" class="b2" value="ЗАБРОНИРОВАНЬ"></p>
+				<p><input type="button" class="b1" value="ПОДРОБНЕЕ"> <input type="button" class="b2" value="ЗАБРОНИРОВАТЬ"></p>
 				<div class="star3"><img src="img/3 stars.png"></div>
 				<div class="hotel-rating">РЕЙТИНГ:9.2</div>
 			</article>

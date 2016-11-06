@@ -277,6 +277,7 @@ a:hover {
 	min-height: 35px;
 	width: 30px;
 	background-image: url('../img/minus.png');
+	background-color: #f2f2f2;
 	border: none;
 	background-repeat: no-repeat;
 	background-position: 10px 16px;
@@ -290,6 +291,7 @@ a:hover {
 	width: 30px;
 	border: none; 
 	background-image: url('../img/plus.png');
+	background-color: #f2f2f2;
 	background-repeat: no-repeat;
 	background-position: 10px 12px;
 }
@@ -319,9 +321,10 @@ a:hover {
 	color: white;
 }
 
-.visit {
+.main-footer .visit {
+	position: relative;
+	top: 70px;
 	margin-left: 129px;
-	margin-top: 56px;
 }
 
 .visit a {
@@ -333,15 +336,21 @@ a:hover {
 	color: #81b3d2;
 }
 
+.main-footer {
+	min-height: 120px;
+	margin-top: -40px;
+}
+
 .footer-social {
+	position: relative;
 	margin-left: 524px;
-	margin-top: -42px;
+	top: 30px;
 }
 
 .footer-copyright img {
 	position: relative;
 	margin-left: 984px;
-	top: -61px;
+	top: -31px;
 }
 
 .footer-copyright .btn {
@@ -349,7 +358,7 @@ a:hover {
 	background: none;
 	position: relative;
 	margin-left: 897px;
-	top: -33px;
+	top: -5px;
 }
 
 .footer-copyright .btn:hover {
