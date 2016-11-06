@@ -231,7 +231,78 @@ a:hover {
 }
 
 .icon-calendar {
-	background-image: url('img/calendar.png');
+	display: block;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background-image: url('../img/calendar.png');
+	margin-left: 460px;
+	top: -25px;
+}
+
+.form-input {
+	min-height: 33px;
+	width: 345px;
+	border: none;
+	background: #f2f2f2;
+}
+
+.form-label {
+	font: PT+Sans;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: -10px;
+}
+
+.form-row,
+.counter {
+	border: none;
+	text-align: center;
+}
+
+.form-row:nth-child(1) {
+	padding-top: 56px;
+}
+
+.counter .form-input {
+	border: none;
+	width: 40px;
+	text-align: center;
+}
+
+.icon-minus {
+	position: relative;
+	left: -2px;
+	top: -4px;
+	background-image: url('../img/minus.png');
+}
+
+.icon-plus {
+	position: relative;
+	left: 7px;
+	top: -4px;
+	background-image: url('../img/plus.png');
+}
+
+.counter {
+	display: inline-block;
+}
+
+.btn {
+	position: relative;
+	margin-left: 55px;
+	top: 28px;
+	min-height: 59px;
+	width: 458px;
+	background: #81b3d2;
+	font: PT+Sans;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.btn:hover {
+	background: #a2c2d6;
 }
 
 .fined-hotel-btn {
@@ -264,7 +335,13 @@ a:hover {
 }
 
 .footer-copyright .btn {
+	color: #000000;
+	background: none;
 	position: relative;
 	margin-left: 897px;
 	top: -33px;
+}
+
+.footer-copyright .btn:hover {
+	color: #81b3d2;
 }
