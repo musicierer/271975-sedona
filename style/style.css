@@ -272,16 +272,26 @@ a:hover {
 
 .icon-minus {
 	position: relative;
-	left: -2px;
-	top: -4px;
+	left: 4px;
+	top: 12px;
+	min-height: 35px;
+	width: 30px;
 	background-image: url('../img/minus.png');
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px 16px;
 }
 
 .icon-plus {
 	position: relative;
-	left: 7px;
-	top: -4px;
+	left: -5px;
+	top: 12px;
+	min-height: 35px;
+	width: 30px;
+	border: none; 
 	background-image: url('../img/plus.png');
+	background-repeat: no-repeat;
+	background-position: 10px 12px;
 }
 
 .counter {
