@@ -21,7 +21,7 @@
 					</li>
 					<li>
 					<div class="little-logo">
-						<img src="img/top-logo.png">
+						<img src="img/top-logo.png" alt="логотип">
 					</div>
 					</li>
 					<li>
@@ -35,33 +35,34 @@
 			<div class="services">
 				<div class="infrastructure">
 					<h3>ИНФРАСТРУКТУРА:</h3>
-					<input type="checkbox" id="mark-type" checked>
-					<label for="mark-type">БАСЕЙН</label><br>
-					<input type="checkbox" id="mark-type">
-					<label for="mark-type">ПАРКОВКА</label><br>
-					<input type="checkbox" id="mark-type">
-					<label for="mark-type">WI-FI</label>
+					<input type="checkbox" id="bath" checked>
+					<label for="swim">БАСЕЙН</label><br>
+					<input type="checkbox" id="parking">
+					<label for="parking">ПАРКОВКА</label><br>
+					<input type="checkbox" id="net">
+					<label for="net">WI-FI</label>
 				</div>
 				<div class="property_type">
 					<h3>ТИП ЖИЛЬЯ:</h3>
-					<input type="checkbox" id="mark-type" checked>
-					<label for="mark-type">ГОСТИНИЦА</label><br>
-					<input type="checkbox" id="mark-type" checked>
-					<label for="mark-type">МОТЕЛЬ</label><br>
-					<input type="checkbox" id="mark-type" checked>
-					<label for="mark-type">АПАРТАМЕНТЫ</label>
+					<input type="checkbox" id="hotel" checked>
+					<label for="hotel">ГОСТИНИЦА</label><br>
+					<input type="checkbox" id="motel" checked>
+					<label for="motel">МОТЕЛЬ</label><br>
+					<input type="checkbox" id="apartment" checked>
+					<label for="apartment">АПАРТАМЕНТЫ</label>
 				</div>
 				<div class="price">
 					<h2>СТОИМОСТЬ В СУТКИ (Р):</h2>
 					<form class="form" action="/search" method="post">
 					<fieldset class="form-row">
-              			<input class="form-out" type="text" name="price-out" id="price-out" value="от 0">
-              			<input class="form-out" type="text" name="price-out" id="price-out" value="до 3000">
+              			<input class="form-out" type="text" name="price-out_1" id="price-out-row1" value="от 0">
+              			<input class="form-out" type="text" name="price-out_2" id="price-out-row2" value="до 3000">
             		</fieldset>
 					<input type="range" class="scroll" min="0" max="3000" step="1" value="50">
 					<p><input  type="button" class="price-button" name="ПОКАЗАТЬ" value="ПОКАЗАТЬ"></p>
+					</form>
 				</div>
-				<img src="img/slime.png">
+				<img src="img/slime.png" alt="фон">
 			</div>
 		</div>
 	</header>
@@ -80,31 +81,31 @@
 						<a href="#">ПО РЕЙТИНГУ</a>
 					</li>
 				</ul>	
-				<div class="coner"><a href="#"><img src="img/3coner.png"></div></a>
+				<div class="coner"><a href="#"><img src="img/3coner.png" alt="треугольнички"></a></div>
 		</nav>
 		<section class="hotels">
 			<article class="hotel">
 				<h3>AMARA RESOR & SPA</h3>
-				<div class="hotel_1"><img src="img/amara.png"></div>
+				<div class="hotel_1"><img src="img/amara.png" alt="отель амара"></div>
 				<p>ГОСТИНИЦА ОТ 3000Р.</p>
 				<p><input type="button" class="b1" value="ПОДРОБНЕЕ"> <input type="button" class="b2" value="ЗАБРОНИРОВАТЬ"></p>
-				<div class="star1"><img src="img/4 stars.png"></div>
+				<div class="star1"><img src="img/4_stars.png" alt="4 звездочки"></div>
 				<div class="hotel-rating">РЕЙТИНГ:8.5</div>
 			</article>
 			<article class="hotel">
 				<h3>DESERT QUAIL INN</h3>
-				<div class="hotel_2"><img src="img/desert.png"></div>
+				<div class="hotel_2"><img src="img/desert.png" alt="отель десерт"></div>
 				<p>МОТЕЛЬ ОТ 2000Р.</p>
 				<p><input type="button" class="b1" value="ПОДРОБНЕЕ"> <input type="button" class="b2" value="ЗАБРОНИРОВАТЬ"></p>
-				<div class="star2"><img src="img/2 stars.png"></div>
+				<div class="star2"><img src="img/2_stars.png" alt="2 звездочки"></div>
 				<div class="hotel-rating">РЕЙТИНГ:8.9</div>
 			</article>
 			<article class="hotel">
 				<h3>VILLAS AT POCO DIABLO</h3>
-				<div class="hotel_3"><img src="img/villas.png"></div>
+				<div class="hotel_3"><img src="img/villas.png" alt="вилла"></div>
 				<p>АПАРТАМЕНТЫ ОТ 4000Р.</p>
 				<p><input type="button" class="b1" value="ПОДРОБНЕЕ"> <input type="button" class="b2" value="ЗАБРОНИРОВАТЬ"></p>
-				<div class="star3"><img src="img/3 stars.png"></div>
+				<div class="star3"><img src="img/3_stars.png" alt="3 звездочки"></div>
 				<div class="hotel-rating">РЕЙТИНГ:9.2</div>
 			</article>
 		</section>
@@ -115,13 +116,13 @@
          <a href="#">#VISITSEDONA</a>
         </div>
         <section class="footer-social">
-          <a class="social-btn-tw" href="http://twitter.com"><img src="img/tw.png"></a>
-          <a class="social-btn-fb" href="http://www.facebook.com"><img src="img/fb.png"></a>
-          <a class="social-btn-inst" href="http://www.instagram.com"><img src="img/hz.png"></a>
+          <a class="social-btn-tw" href="http://twitter.com"><img src="img/tw.png" alt="твиттер"></a>
+          <a class="social-btn-fb" href="http://www.facebook.com"><img src="img/fb.png" alt="фейсбук"></a>
+          <a class="social-btn-inst" href="http://www.youtube.com"><img src="img/hz.png" alt="ютуб"></a>
         </section>
         <section class="footer-copyright">
         <a class="btn" href="https://htmlacademy.ru">WEBSITE BY</a>
-        <img src="img/html.png">
+        <img src="img/html.png" alt="html">
         </section>
       </div>
     </footer>

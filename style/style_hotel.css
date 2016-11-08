@@ -21,8 +21,7 @@ a:hover {
 }
 
 .main-navigation {
-	height: 56px;
-	margin: 0 auto;
+	min-height: 56px;
 	background: #ffffff;
 }
 
