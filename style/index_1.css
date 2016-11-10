@@ -39,6 +39,17 @@ li:nth-child(2) {
   margin-right: 20%;
 }
 
+p {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+h2,
+h3 {
+	font-size: 21px;
+	font-weight: 700;
+}
+
 .main-header {
 	position: relative;
 }
@@ -131,16 +142,6 @@ li:nth-child(2) {
 	padding-bottom: 88px;
 }
 
-.services .services-item h3 {
-	font-size: 21px;
-	font-weight: 700; 
-}
-
-.services .services-item p {
-	font-size: 14px;
-	font-weight: 400;
-}
-
 .services .services-item {
 	display: inline-block;
 	color: #111111;
@@ -161,24 +162,18 @@ li:nth-child(2) {
 
 .bridge {
 	float: left;
-	width: 800px;
-	min-height: 256px;
 }
 
 .davil-bridge h3 {
-	font-size: 21px;
-	font-weight: 700;
 	margin-top: 57px;
-}
-
-.davil-bridge p {
-	font-size: 14px;
-	font-weight: 400;
 }
 
 .sedona-advantages {
 	font-size: 0;
 	background: #eeeeee;
+	padding-top: 52px;
+	padding-bottom: 60px;
+	margin-bottom: 61px;
 }
 
 .sedona-advantages .item-advantage {
@@ -190,17 +185,160 @@ li:nth-child(2) {
 	box-sizing: border-box;
 }
 
-.sedona-advantages .item-advantage h3 {
+.interesting {
+	position: relative;
+	text-align: center;
+}
+
+.interesting p {
+	padding-bottom: 52px;
+}
+
+.interesting a {
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #766357;
+	padding: 38px 149px;
 	font-size: 21px;
 	font-weight: 700;
+	text-transform: uppercase;
 }
 
-.sedona-advantages .item-advantage p {
+.form {
+	margin-left: auto;
+  	margin-right: auto;
+  	min-height: 300px;
+  	padding: 56px;
+  	position: absolute;
+  	left: 50%;
+  	top: 100%;
+  	transform: translateX( -50% );
+  	background: #ffffff;
+}
+
+.form fieldset {
+	border: none;
+}
+
+.form label {
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-right: 10px;
 }
 
+.form-input {
+	min-height: 33px;
+	width: 345px;
+	border: none;
+	background: #f2f2f2;
+}
 
+.icon-calendar {
+	display: block;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background-image: url('../img/calendar.png');
+	left: 425px;
+	top: -27px;
+}
 
+.counter {
+	display: inline-block;
+}
 
+.counter .form-input {
+	width: 40px;
+	text-align: center;
+}
 
+.icon-minus {
+	position: relative;
+	left: 6px;
+	top: 11px;
+	min-height: 34px;
+	width: 30px;
+	background-image: url('../img/minus.png');
+	background-color: #f2f2f2;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px 16px;
+}
+
+.icon-plus {
+	position: relative;
+	left: -6px;
+	top: 11px;
+	min-height: 34px;
+	width: 30px;
+	border: none; 
+	background-image: url('../img/plus.png');
+	background-color: #f2f2f2;
+	background-repeat: no-repeat;
+	background-position: 10px 12px;
+}
+
+.btn {
+	position: absolute;
+	min-height: 59px;
+	width: 458px;
+	background: #81b3d2;
+	color: #ffffff;
+	left: 68px;
+	bottom: 55px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	background: #a2c2d6;
+}
+
+.main-footer {
+	position: relative;
+	min-height: 123px;
+}
+
+.visit a {
+	position: absolute;
+	color: #000000;
+	font-weight: 700;
+	font-size: 21px;
+	text-transform: uppercase;
+	text-decoration: none;
+	left: 133px;
+	top: 50px;
+}
+
+.visit a:hover {
+	color: #81b3d2;
+}
+
+.footer-social {
+	position: absolute;
+	left: 527px;
+	top: 37px;
+}
+
+.footer-copyright img {
+	position: absolute;
+	right: 104px;
+	top: 44px;
+}
+
+.footer-copyright a {
+	position: absolute;
+	color: #000000;
+	text-decoration: none;
+	right: 223px;
+	top: 53px;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.footer-copyright a:hover {
+	color: #81b3d2;
+}

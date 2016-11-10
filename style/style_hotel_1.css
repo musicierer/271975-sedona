@@ -1,0 +1,99 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.main-navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.main-navigation li {
+	display: inline-block;
+	width: 20%;
+  	font-size: 14px;
+  	text-align: center;
+  	text-decoration: none;
+  	padding-top: 22px;
+  	padding-bottom: 22px;
+}
+
+.main-navigation a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+a:hover {
+	color: #81b3d2;
+}
+
+li:nth-child(2) {
+  margin-right: 20%;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+h2,
+h3 {
+	font-size: 21px;
+	font-weight: 700;
+}
+
+.main-header {
+	position: relative;
+}
+
+.main-navigation .logo {
+  width: 139px;
+  height: 70px;
+  background-image: url('../img/top-logo.png');
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.main-logo {
+	position: relative;
+	width: 100%;
+}
+
+.services-of-sedona {
+	position: relative;
+}
+
+.services {
+	width: 100%;
+	min-height: 218px;
+}
+
+.slime-background {
+	position: absolute;
+	z-index: -1;
+}
+
+.infrastructure {
+	position: absolute;
+	left: 73px;
+}
+
+.property_type {
+	position: absolute;
+	left: 328px;
+}
+
+
+
+
+

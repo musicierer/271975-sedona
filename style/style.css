@@ -362,3 +362,8 @@ a:hover {
 .footer-copyright .btn:hover {
 	color: #81b3d2;
 }
+
+.map {
+	padding: 100px 0;
+  	text-align: center;
+}

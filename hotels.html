@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Sedona hotels</title>
 	<link rel="stylesheet" type="text/css" href="style/normalize.css">
-	<link rel="stylesheet" type="text/css" href="style/style_hotel.css">
+	<link rel="stylesheet" type="text/css" href="style/style_hotel_1.css">
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -20,19 +20,21 @@
 						<a href="#">Фото и видео</a>	
 					</li>
 					<li>
-					<div class="little-logo">
-						<img src="img/top-logo.png" alt="логотип">
-					</div>
-					</li>
-					<li>
 						<a href="#">Карта штата</a>	
 					</li>
 					<li>
 						<a href="#">Гостиницы</a>	
 					</li>
 				</ul>
+				<div class="logo"></div>
 			</nav>
+		</div>
+	</header>
+	<main class="services-of-sedona">
 			<div class="services">
+				<div class="slime-background">
+				<img src="img/slime.png" alt="фон" width="1200" height="218">
+				</div>
 				<div class="infrastructure">
 					<h3>ИНФРАСТРУКТУРА:</h3>
 					<input type="checkbox" id="bath" checked>
@@ -51,22 +53,7 @@
 					<input type="checkbox" id="apartment" checked>
 					<label for="apartment">АПАРТАМЕНТЫ</label>
 				</div>
-				<div class="price">
-					<h2>СТОИМОСТЬ В СУТКИ (Р):</h2>
-					<form class="form" action="/search" method="post">
-					<fieldset class="form-row">
-              			<input class="form-out" type="text" name="price-out_1" id="price-out-row1" value="от 0">
-              			<input class="form-out" type="text" name="price-out_2" id="price-out-row2" value="до 3000">
-            		</fieldset>
-					<input type="range" class="scroll" min="0" max="3000" step="1" value="50">
-					<p><input  type="button" class="price-button" name="ПОКАЗАТЬ" value="ПОКАЗАТЬ"></p>
-					</form>
-				</div>
-				<img src="img/slime.png" alt="фон">
 			</div>
-		</div>
-	</header>
-	<main class="container">
 		<nav class="sorting">
 			<h3>НАЙДЕНО: 3</h3>
 			<p>СОРТИРОВКА:</p>		
@@ -127,5 +114,6 @@
       </div>
     </footer>
     </div>
+   </div>
 </body>
 </html>
