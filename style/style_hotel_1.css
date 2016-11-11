@@ -35,7 +35,7 @@ a:hover {
 	color: #81b3d2;
 }
 
-li:nth-child(2) {
+.main-navigation li:nth-child(2) {
   margin-right: 20%;
 }
 
@@ -93,7 +93,37 @@ h3 {
 	left: 328px;
 }
 
+.sorting-hotel-type {
+	position: relative;
+}
 
+.sorting-item {
+	position: absolute;
+	left: 30px;
+}
 
+.sorting-item-navigation ul {
+	list-style-type: none;
+ 	margin: 0;
+  	padding: 0;
+  	font-size: 0;
+}
 
+.sorting-item-navigation li {
+	display: inline-block;
+  	font-size: 14px;
+  	text-align: center;
+  	padding-top: 22px;
+  	padding-bottom: 22px;
+  	margin-left: 147px;
+  	padding-left: 20px;
+}
 
+.sorting-hotel-item {
+	margin: 0;
+	padding: 0;
+}
+
+.sorting-item-navigation {
+	display: inline-block;
+}
