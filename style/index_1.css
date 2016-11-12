@@ -75,16 +75,17 @@ h3 {
 
 .main-logo:before {
 	position: absolute;
+	content: '';
 	background-image: url('../img/frame.png');
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 30px;
+	height: 57px;
 }
 
 .information {
+	padding-top: 30px;
 	text-align: center;
-	margin-top: -200px;
 }
 
 .information h2 {
@@ -286,7 +287,7 @@ h3 {
 }
 
 .btn:hover {
-	background: #a2c2d6;
+	background: #669ec0;
 }
 
 .main-footer {
@@ -332,5 +333,6 @@ h3 {
 }
 
 .footer-copyright a:hover {
-	color: #81b3d2;
+	color: #669ec0;
 }
+

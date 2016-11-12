@@ -37,8 +37,8 @@
 				</div>
 				<div class="infrastructure">
 					<h3>ИНФРАСТРУКТУРА:</h3>
-					<input type="checkbox" id="bath" checked>
-					<label for="swim">БАСЕЙН</label><br>
+					<input type="checkbox" id="bath" checked="">
+					<label for="bath">БАСЕЙН</label><br>
 					<input type="checkbox" id="parking">
 					<label for="parking">ПАРКОВКА</label><br>
 					<input type="checkbox" id="net">
@@ -46,18 +46,33 @@
 				</div>
 				<div class="property_type">
 					<h3>ТИП ЖИЛЬЯ:</h3>
-					<input type="checkbox" id="hotel" checked>
+					<input type="checkbox" id="hotel">
 					<label for="hotel">ГОСТИНИЦА</label><br>
-					<input type="checkbox" id="motel" checked>
+					<input type="checkbox" id="motel">
 					<label for="motel">МОТЕЛЬ</label><br>
-					<input type="checkbox" id="apartment" checked>
+					<input type="checkbox" id="apartment">
 					<label for="apartment">АПАРТАМЕНТЫ</label>
 				</div>
 			</div>
-		<div class="sorting-hotel-type">
+			<div class="filter-range">
+				<div class="filter-range-title">Стоимость в сутки (р):</div>
+				<div class="price-controls">
+        		<label class="min-price">от <input type="text" name="min-price" value="0"></label>
+        		<label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+      			</div>
+     			<div class="range-controls">
+        		<div class="scale">
+          		<div class="bar"></div>
+        		</div>
+        		<div class="range-toggle range-toggle-min"></div>
+        		<div class="range-toggle range-toggle-max"></div>
+      			</div>
+      			<button class="btn-transparent" type="submit">Показать</button>
+			</div>
+		<div class="sorting-hotel-type clearfix">
 			<div class="sorting-hotel-item">
-			<h3>НАЙДЕНО: 3</h3>
-			<p>СОРТИРОВКА:</p>
+			<h3 class="sorting-hotel-item-find">НАЙДЕНО: 3</h3>
+			<p class="sorting-hotel-item-class">СОРТИРОВКА:</p>
 			</div>	
 			<div class="sorting-item-navigation">
 				<ul>
@@ -71,33 +86,48 @@
 						<a href="#">ПО РЕЙТИНГУ</a>
 					</li>
 				</ul>
-				<div class="sorting-item-coner"><a href="#"><img src="img/3coner.png" alt="треугольнички"></a></div>
+			</div>
+			<div class="sorting-item-coner">
+			<div class="sorting-item-coner-left"><a href="#"><img src="img/3coner.png" alt="треугольнички"></a></div>
+			<div class="sorting-item-coner-right"><a href="#"><img src="img/3coner.png" alt="треугольнички"></a></div>
 			</div>
 		</div>
 		<section class="hotels">
-			<article class="hotel">
-				<h3>AMARA RESOR & SPA</h3>
-				<div class="hotel_1"><img src="img/amara.png" alt="отель амара"></div>
+			<article class="hotels-item clearfix">
+				<div class="hotel_1"><img src="img/amara.jpg" alt="отель амара"></div>
+				<div class="amara-hotels-item">
+				<h3>AMARA RESORT & SPA</h3>
 				<p>ГОСТИНИЦА ОТ 3000Р.</p>
 				<p><input type="button" class="b1" value="ПОДРОБНЕЕ"> <input type="button" class="b2" value="ЗАБРОНИРОВАТЬ"></p>
+				</div>
+				<div class="right-amara-hotels-item">
 				<div class="star1"><img src="img/4_stars.png" alt="4 звездочки"></div>
 				<div class="hotel-rating">РЕЙТИНГ:8.5</div>
+				</div>
 			</article>
-			<article class="hotel">
+			<article class="hotels-item clearfix">
+				<div class="hotel_2"><img src="img/desert.jpg" alt="отель десерт"></div>
+				<div class="desert-hotels-item">
 				<h3>DESERT QUAIL INN</h3>
-				<div class="hotel_2"><img src="img/desert.png" alt="отель десерт"></div>
 				<p>МОТЕЛЬ ОТ 2000Р.</p>
 				<p><input type="button" class="b1" value="ПОДРОБНЕЕ"> <input type="button" class="b2" value="ЗАБРОНИРОВАТЬ"></p>
+				</div>
+				<div class="right-desert-hotels-item">
 				<div class="star2"><img src="img/2_stars.png" alt="2 звездочки"></div>
 				<div class="hotel-rating">РЕЙТИНГ:8.9</div>
+				</div>
 			</article>
-			<article class="hotel">
+			<article class="hotels-item clearfix">
+				<div class="hotel_3"><img src="img/villas.jpg" alt="вилла"></div>
+				<div class="villas-hotels-item">
 				<h3>VILLAS AT POCO DIABLO</h3>
-				<div class="hotel_3"><img src="img/villas.png" alt="вилла"></div>
 				<p>АПАРТАМЕНТЫ ОТ 4000Р.</p>
 				<p><input type="button" class="b1" value="ПОДРОБНЕЕ"> <input type="button" class="b2" value="ЗАБРОНИРОВАТЬ"></p>
+				</div>
+				<div class="right-villas-hotels-item">
 				<div class="star3"><img src="img/3_stars.png" alt="3 звездочки"></div>
 				<div class="hotel-rating">РЕЙТИНГ:9.2</div>
+				</div>
 			</article>
 		</section>
 	</main>
