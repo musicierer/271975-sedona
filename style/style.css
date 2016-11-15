@@ -384,7 +384,7 @@ h3 {
 .main-footer {
 	position: relative;
 	height: 123px;
-	bottom: 123px;
+	margin-top: -123px;
 	background: rgba(255, 255, 255, 0.8);
 }
 
@@ -415,6 +415,18 @@ h3 {
 	background-position: 50% 50%;
 }
 
+.footer-social a:after {
+	content: '';
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	z-index: 2;
+ 	transform: translateX(-50%) translateY(-50%);
+ 	background-image: url('../img/tw.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
 .footer-social-twitter:hover {
 	display: inline-block;
 	width: 46px;
@@ -433,6 +445,10 @@ h3 {
 	background-image: url('../img/tw.png');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+}
+
+.footer-social-twitter:active:after {
+	opacity: 0.5;
 }
 
 .footer-social-facebook {
