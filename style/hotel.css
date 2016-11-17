@@ -199,6 +199,8 @@ input[type="checkbox"]:checked + label::after {
 
 .price-controls input {
   width: 50px;
+  height: 35px;
+  vertical-align: top;
   margin: 0;
   color: inherit;
   font: inherit;
@@ -292,7 +294,6 @@ input[type="checkbox"]:checked + label::after {
 
 .sorting-hotel-item {
 	float: left;
-	width: 330px;
 	padding: 0;
 	margin: 0;
 }
@@ -306,7 +307,6 @@ input[type="checkbox"]:checked + label::after {
 }
 
 .sorting-item-navigation {
-	padding: 36px 0;
 	float: left;
 }
 
@@ -341,14 +341,14 @@ input[type="checkbox"]:checked + label::after {
 .sorting-item-navigation li:nth-child(1),
 .sorting-item-navigation li:nth-child(2),
 .sorting-item-navigation li:nth-child(3) {
-	padding-top: 27px;
+	margin-top: 33px;
 	padding-right: 34px;
 }
 
 .sorting-item-coner {
-	padding-top: 51px;
-	padding-right: 73px;
 	float: right;
+	margin-right: 73px;
+	margin-top: 30px;
 }
 
 .clearfix:after {
@@ -357,8 +357,21 @@ input[type="checkbox"]:checked + label::after {
   display: table;
 }
 
+.sorting-hotel-item-find,
+.sorting-hotel-item-class {
+	display: inline-block;
+	vertical-align: middle;
+}
+
 .sorting-hotel-item-find {
-	padding: 36px 20px 36px 73px;
+	margin-top: 28px;
+	margin-left: 72px;
+	margin-right: 50px;
+}
+
+.sorting-hotel-item-class {
+	margin-top: 23px;
+	margin-right: 42px;
 }
 
 .sorting-item-coner-left a {
@@ -443,6 +456,7 @@ input[type="checkbox"]:checked + label::after {
 	height: 26px;
 	width: 111px;
 	background: #81b3d2;
+	cursor: pointer;
 }
 
 .b1:hover {
@@ -458,6 +472,7 @@ input[type="checkbox"]:checked + label::after {
 	height: 26px;
 	width: 144px;
 	background: #766357;
+	cursor: pointer;
 }
 
 .b2:hover {

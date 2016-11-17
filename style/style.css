@@ -299,10 +299,10 @@ h3 {
 }
 
 .icon-minus {
-	position: relative;
-	left: 6px;
-	top: 11px;
-	min-height: 34px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: -5px;
+	min-height: 35px;
 	width: 30px;
 	background-image: url('../img/minus.png');
 	background-color: #f2f2f2;
@@ -320,10 +320,10 @@ h3 {
 }
 
 .icon-plus {
-	position: relative;
-	left: -6px;
-	top: 11px;
-	min-height: 34px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: -5px;
+	min-height: 35px;
 	width: 30px;
 	border: none; 
 	background-image: url('../img/plus.png');
@@ -365,7 +365,7 @@ h3 {
 	color: #88b6d1;
 }
 
-.map {
+.map iframe {
 	border: none;
 }
 
