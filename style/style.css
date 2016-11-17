@@ -191,15 +191,38 @@ h3 {
 	padding-bottom: 52px;
 }
 
-.interesting a {
+.interesting .fined-hotel-btn {
 	display: inline-block;
 	color: #ffffff;
 	text-decoration: none;
 	background-color: #766357;
-	padding: 38px 149px;
+	padding: 38px 132px;
 	font-size: 21px;
 	font-weight: 700;
 	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+}
+
+.interesting .fined-hotel-btn:hover {
+	background-color: #604e43;
+}
+
+.interesting .fined-hotel-btn:active {
+	background-color: #503e33;
+	color: #857871;
+}
+
+.choose-hotel {
+	display: block;
+}
+
+.choose-hotel-close {
+	display: none;
+}
+
+.choose-hotel-open {
+	display: block;
 }
 
 .form {
@@ -231,6 +254,13 @@ h3 {
 	border: none;
 	background: #f2f2f2;
 	cursor: pointer;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+#date-in,
+#date-out {
+	padding-left: 9px;
 }
 
 .form-input:hover {
@@ -252,23 +282,11 @@ h3 {
 }
 
 .icon-calendar:hover {
-	display: block;
-	position: relative;
-	width: 20px;
-	height: 20px;
 	background-image: url('../img/calendar-hover.png');
-	left: 425px;
-	top: -27px;
 }
 
 .icon-calendar:active {
-	display: block;
-	position: relative;
-	width: 20px;
-	height: 20px;
 	background-image: url('../img/calendar-active.png');
-	left: 425px;
-	top: -27px;
 }
 
 .counter {
@@ -294,29 +312,11 @@ h3 {
 }
 
 .icon-minus:hover {
-	position: relative;
-	left: 6px;
-	top: 11px;
-	min-height: 34px;
-	width: 30px;
 	background-image: url('../img/minus-hover.png');
-	background-color: #f2f2f2;
-	border: none;
-	background-repeat: no-repeat;
-	background-position: 10px 16px;
 }
 
 .icon-minus:active {
-	position: relative;
-	left: 6px;
-	top: 11px;
-	min-height: 34px;
-	width: 30px;
 	background-image: url('../img/minus-active.png');
-	background-color: #f2f2f2;
-	border: none;
-	background-repeat: no-repeat;
-	background-position: 10px 16px;
 }
 
 .icon-plus {
@@ -333,29 +333,11 @@ h3 {
 }
 
 .icon-plus:hover {
-	position: relative;
-	left: -6px;
-	top: 11px;
-	min-height: 34px;
-	width: 30px;
-	border: none; 
 	background-image: url('../img/plus-hover.png');
-	background-color: #f2f2f2;
-	background-repeat: no-repeat;
-	background-position: 10px 12px;
 }
 
 .icon-plus:active {
-	position: relative;
-	left: -6px;
-	top: 11px;
-	min-height: 34px;
-	width: 30px;
-	border: none; 
 	background-image: url('../img/plus-active.png');
-	background-color: #f2f2f2;
-	background-repeat: no-repeat;
-	background-position: 10px 12px;
 }
 
 .btn {
@@ -366,9 +348,11 @@ h3 {
 	color: #ffffff;
 	left: 68px;
 	bottom: 55px;
-	font-size: 14px;
+	font-size: 21px;
 	font-weight: 700;
 	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
 }
 
 .btn:hover {
@@ -379,6 +363,10 @@ h3 {
 .btn:active {
 	background: #5496bd;
 	color: #88b6d1;
+}
+
+.map {
+	border: none;
 }
 
 .main-footer {
@@ -410,12 +398,10 @@ h3 {
 	width: 46px;
 	height: 48px;
 	background: #81b3d2;
-	background-image: url('../img/tw.png');
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	position: relative;
 }
 
-.footer-social a:after {
+.footer-social-twitter:after {
 	content: '';
 	position: absolute;
   	top: 50%;
@@ -425,26 +411,16 @@ h3 {
  	background-image: url('../img/tw.png');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	width: 17px;
+ 	height: 15px; 
 }
 
 .footer-social-twitter:hover {
-	display: inline-block;
-	width: 46px;
-	height: 48px;
 	background: #669ec0;
-	background-image: url('../img/tw.png');
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
 }
 
 .footer-social-twitter:active {
-	display: inline-block;
-	width: 46px;
-	height: 48px;
 	background: #5496bd;
-	background-image: url('../img/tw.png');
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
 }
 
 .footer-social-twitter:active:after {
@@ -456,29 +432,29 @@ h3 {
 	width: 46px;
 	height: 48px;
 	background: #81b3d2;
-	background-image: url('../img/fb.png');
+	position: relative;
+}
+
+.footer-social-facebook:after {
+	content: '';
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	z-index: 2;
+ 	transform: translateX(-50%) translateY(-50%);
+ 	background-image: url('../img/fb.png');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	width: 17px;
+ 	height: 15px; 
 }
 
 .footer-social-facebook:hover {
-	display: inline-block;
-	width: 46px;
-	height: 48px;
 	background: #669ec0;
-	background-image: url('../img/fb.png');
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
 }
 
-.footer-social-facebook:active {
-	display: inline-block;
-	width: 46px;
-	height: 48px;
-	background: #5496bd;
-	background-image: url('../img/fb.png');
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
+.footer-social-facebook:active:after {
+	opacity: 0.5;
 }
 
 .footer-social-youtube {
@@ -486,31 +462,30 @@ h3 {
 	width: 46px;
 	height: 48px;
 	background: #81b3d2;
-	background-image: url('../img/you.png');
+	position: relative;
+}
+
+.footer-social-youtube:after {
+	content: '';
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	z-index: 2;
+ 	transform: translateX(-50%) translateY(-50%);
+ 	background-image: url('../img/you.png');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	width: 17px;
+ 	height: 15px; 
 }
 
 .footer-social-youtube:hover {
-	display: inline-block;
-	width: 46px;
-	height: 48px;
 	background: #669ec0;
-	background-image: url('../img/you.png');
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
 }
 
-.footer-social-youtube:active {
-	display: inline-block;
-	width: 46px;
-	height: 48px;
-	background: #5496bd;
-	background-image: url('../img/you.png');
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
+.footer-social-youtube:active:after {
+	opacity: 0.5;
 }
-
 
 .footer-copyright .academy {
 	position: absolute;
@@ -523,23 +498,11 @@ h3 {
 }
 
 .footer-copyright .academy:hover {
-	position: absolute;
-	right: 104px;
-	top: 44px;
-	width: 114px;
-	height: 42px;
 	background-image: url('../img/html-hover.png');
-	background-repeat: no-repeat;
 }
 
 .footer-copyright .academy:active {
-	position: absolute;
-	right: 104px;
-	top: 44px;
-	width: 114px;
-	height: 42px;
 	background-image: url('../img/html-active.png');
-	background-repeat: no-repeat;
 }
 
 .footer-copyright p {

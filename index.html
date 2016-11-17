@@ -10,7 +10,6 @@
 <body>
 	<div class="wrapper">
 	<header class="main-header">
-		<div class="container">
 			<nav class="main-navigation">
 				<ul>
 					<li>
@@ -31,7 +30,6 @@
 			<div class="main-logo">
 				<img src="img/title.png" alt="подпись к фото главного лого">
 			</div>
-		</div>
 	</header>
 	<main class="container">
 		<div class="information">
@@ -96,7 +94,7 @@
 			<h2>ЗАИНТЕРЕСОВАЛИСЬ?</h2>
 			<p>УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ,<br>И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДОЛЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
 			<div class="fined-hotel">
-			<a class="fined-hotel-btn" href="#">Поиск гостиницы в Седоне</a>
+			<button class="fined-hotel-btn" type="button">Поиск гостиницы в Седоне</button>
 			</div>
 			<div class="choose-hotel">
 				<form class="form" action="/search" method="post">
@@ -105,9 +103,9 @@
               			<input class="form-input" type="text" name="date-in" id="date-in" value="2014-04-24">
               			<span class="icon-calendar"></span>
             		</fieldset>
-            			<fieldset class="form-row">
+            		<fieldset class="form-row">
               			<label class="form-label" for="date-out">Дата выезда:</label>
-              			<input class="form-input" type="tex" name="date-out" id="date-out" value="2014-07-04">
+              			<input class="form-input" type="text" name="date-out" id="date-out" value="2014-07-04">
               			<span class="icon-calendar"></span>
            			 </fieldset>
            			 <fieldset class="counters form-row">
@@ -120,7 +118,7 @@
 		              <fieldset class="counter">
 		                <label class="form-label" for="counter-children">Дети:</label>
 		                <button class="icon-minus" type="button" tabindex="-1"></button>
-		                <input class="form-input" type="text" name="counter-children" id="counter-children" value="0">
+		                <input class="form-input" type="text" name="counter-children" id="counter-children" value="0" required>
 		                <button class="icon-plus" type="button" tabindex="-1"></button>
 		              </fieldset>
 		            </fieldset>
@@ -147,5 +145,20 @@
         </section>
     </footer>
     </div>
+    <script>
+    	var button = document.querySelector(".fined-hotel-btn");
+    	var popup = document.querySelector(".choose-hotel");
+    	var open = document.querySelector(".choose-hotel-close");
+
+    	button.addEventListener("click", function(event) {
+    	event.preventDefault();
+    	popup.classList.add("choose-hotel-close");
+    	});
+
+    	open.addEventListener("click", function(event) {
+    	event.preventDefault();
+    	popup.classList.remove("choose-hotel-close");
+		});
+    </script>
 </body>
 </html>
