@@ -403,6 +403,7 @@ h3 {
 
 .counter input {
     font-size: 14px;
+    font-weight: 700;
     display: inline-block;
     vertical-align: middle;
     width: 40px;
@@ -662,10 +663,11 @@ input[type="checkbox"]:checked + label::after {
     font-size: 14px;
     line-height: 20px;
     color: #ffffff;
-    background: transparent;
     border: 2px solid #ffffff;
     border-radius: 2px;
     cursor: pointer;
+    text-transform: uppercase;
+    background: transparent;
 }
 
 .btn-transparent:hover {
@@ -705,11 +707,16 @@ input[type="checkbox"]:checked + label::after {
 }
 
 .sorting-item-navigation,
-.sorting-hotel-item-find,
-.sorting-hotel-item-class {
+.sorting-hotel-item-find {
     display: inline-block;
     font-weight: 700;
 }
+
+ .sorting-hotel-item-class {
+    font-size: 12px;
+    font-weight: 400;
+ }
+
 
 .sorting-item-navigation {
     float: left;
@@ -741,6 +748,8 @@ input[type="checkbox"]:checked + label::after {
     display: inline-block;
     padding: 0;
     margin: 0;
+    font-size: 12px;
+    line-height: 14px;
 }
 
 .sorting-item-navigation li:nth-child(1),
@@ -775,7 +784,7 @@ input[type="checkbox"]:checked + label::after {
 }
 
 .sorting-hotel-item-class {
-    margin-top: 23px;
+    margin-top: 18px;
     margin-right: 42px;
 }
 
